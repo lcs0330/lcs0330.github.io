@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lib-bs4/css/bootstrap.min.css">
+    <script src="lib-bs4/js/jquery-3.3.1.min.js"></script>
+    <script src="lib-bs4/js/popper.min.js"></script>
+    <script src="lib-bs4/js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--    <link rel="bookmark"  type="image/x-icon"  href=""/>-->
+    <!--    <link rel="apple-touch-icon-precomposed" href="images/favicon.ico.">-->
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+
+    <title>欢迎来到蒙刘酸酸乳</title>
+
+</head>
+<body>
+
+
+    <script type="text/javascript" color="0,0,255" opacity='0.7' zIndex="-2" count="99"
+            src="https://files.cnblogs.com/files/lfri/canvas-nest.js"></script>
+
+
+
+    <div class="hidden-xs" style="height: 60px"></div>
+
+
+
+    <section class="container user-select">
+
+
+        <!--    中间内容-->
+        <div class="content-wrap">
+            <div class="content">
+                <script src="js/circle.js"></script>
+
+                <div class="canvasbig">
+                    <div class="canvasdiv"></div>
+                    <canvas width="520" height="700" id="canvas1"></canvas>
+                </div>
+
+            </div>
+        </div>
+
+
+
+       
+        <footer class="footer">
+        </footer>
+    </section>
+    <div><a href="javascript:;" class="gotop" style="display:none;"></a></div>
+
+</body>
+<script>
+    $(function () {
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 100) {
+                $(".gotop").fadeIn();
+            }
+            else {
+                $(".gotop").hide();
+            }
+        });
+        $(".gotop").click(function () {
+            $('html,body').animate({ 'scrollTop': 0 }, 1000);
+        });
+    });
+</script>
+
+<script type="text/javascript" size="90" alpha="0.2" zIndex="0" src="./js/ribbon.js"></script>
+<script src="js/index.js"></script>
+<!--动态几何图-->
+</html>
